@@ -1,0 +1,467 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+/*header*/
+
+.header{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(heroimage.jpg);
+    
+}
+
+
+/*navbar*/
+
+.nav{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.logo{
+    width: 50%;
+    height: 100%;
+    color: red;
+    font-size: 1.4rem;
+    font-style: Graphique Pro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+    
+.nav_link{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.nav_link select{
+    width: 200px;
+    height: 35px;
+    font-size: 15px;
+    color: white;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid rgb(166, 158, 158);
+}
+.nav_link a{
+    width: 100px;
+    height: 35px;
+    color: white;
+    margin-left: 10px;
+    background-color: red;
+    text-decoration: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header_text{
+    width: 90%;
+    height: 85%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    gap: 30px;
+}
+
+.header_input_button{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+.header_input_button input{
+    width: 300px;
+    height: 55px;
+    text-align: left;
+    font-size: 1.3rem;
+    background-color: black;
+    opacity: 0.6;
+    border: 1px solid rgb(166, 155, 155);
+    border-radius: 5px;
+} 
+.header_input_button a{
+    background-color: red;
+    width: 140px;
+    height: 55px;
+    font-size: 1rem;
+    margin-left: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+/*hero1*/
+
+.hero1{
+    width: 100%;
+    height: 530px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-top: 8px solid rgb(41, 40, 40);
+    background-color: black;
+}
+.hero1_text1{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+
+}
+.hero1_text1 p{
+    margin-top: 20px;
+}
+.hero1_tv_image{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url(tv.png);
+    
+}
+    
+
+/*hero2*/
+
+.hero2{
+    width: 100%;
+    height: 530px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-top: 8px solid rgb(41, 40, 40);
+    background-color: black;
+}
+.hero2_text1{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.hero2_mobile_image{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url(mobile-0819.jpg);
+}
+    
+
+/*hero3*/
+
+.hero3{
+    width: 100%;
+    height: 530px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-top: 8px solid rgb(41, 40, 40);
+    background-color: black;
+}
+.hero3_text1{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.hero3_tv_image{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url(device-pile-in.png);
+}
+
+/*hero4*/
+
+.hero4{
+    width: 100%;
+    height: 530px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-top: 8px solid rgb(41, 40, 40);
+    background-color: black;
+}
+.hero4_text1{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.hero4_image{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url(hero4.png);
+}
+
+/*hero5*/
+
+.hero5{
+    width: 100%;
+    height: 900px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 8px solid rgb(41, 40, 40);
+    background-color:black;
+}
+.hero5 button{
+    width: 80%;
+    height: 10%;
+    font-size: 1.3rem;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    background-color: rgb(41, 40, 40);
+    text-align: left;
+    
+}
+
+.hero5 h1{
+    width: 80%;
+    height: 10%;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero5 h3{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.input_button{
+    width: 70%;
+    height: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.input_button input{
+    width: 380px;
+    height: 55px;
+    font-size: 1rem;
+    background-color: rgb(20, 20, 20);
+    border: 1px solid rgb(166, 155, 155);
+    border-radius: 5px;
+} 
+.input_button a{
+    background-color: red;
+    width: 180px;
+    height: 55px;
+    font-size: 1.1rem;
+    margin-left: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+/*hero6*/
+
+.hero6{
+    width: 100%;
+    height: 530px;
+    color: white;
+    border-top: 8px solid rgb(41, 40, 40);
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero6 ul{
+    width: 90%;
+    list-style-type: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hero6 a{
+    color: white;
+    text-decoration: none;
+}
+
+ul li{
+    width: 250px;
+    height: 40px;
+}
+.question{
+    width: 85%;
+    height: 10%;
+}
+.English{
+    width: 85%;
+    height: 10%;
+}
+.netflixindia{
+    width: 85%;
+    height: 10%;
+}
+
+@media screen and (max-width: 426px) {
+    .header{
+        height: 500px;
+    }
+    .nav_link select{
+        width: 80px;
+        height: 30px;
+    }
+    .nav_link a{
+        width: 70px;
+        height: 30px;
+    }
+    .logo{
+        font-size: 0.8rem;
+    }
+    .header_text{
+        width: 90%;
+        gap: 20px;
+        font-size: 1rem;
+    }
+   .hero1{
+    flex-direction: column;
+    height: 500px;
+   } 
+   .hero1_text1{
+    font-size: 1rem;
+    width: 100%;
+    height: 40%;
+   }
+   .hero1_tv_image{
+    width: 100%;
+    height: 60%;
+   }
+
+   .hero2{
+    flex-direction: column-reverse;
+    height: 500px;
+   } 
+   .hero2_text1{
+    font-size: 1rem;
+    width: 100%;
+    height: 40%;
+   }
+   .hero2_mobile_image{
+    width: 100%;
+    height: 60%;
+   }
+
+   .hero3{
+    flex-direction: column;
+    height: 500px;
+   } 
+   .hero3_text1{
+    font-size: 1rem;
+    width: 100%;
+    height: 40%;
+   }
+   .hero3_tv_image{
+    width: 100%;
+    height: 60%;
+   }
+
+   .hero4{
+    flex-direction: column-reverse;
+    height: 500px;
+   } 
+   .hero4_text1{
+    font-size: 1rem;
+    width: 100%;
+    height: 40%;
+   }
+   .hero4_image{
+    width: 100%;
+    height: 60%;
+   }
+
+   .hero6{
+    height: 1000px;
+   }
+   
+}
